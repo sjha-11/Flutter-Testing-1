@@ -43,4 +43,9 @@ class StudentClass {
   set studentName(String value) {
     _studentName = value;
   }
+
+  @override
+  String toString() {
+    return 'StudentClass{_studentName: $_studentName, _studentEmail: $_studentEmail, _studentPassword: $_studentPassword, _studentNumber: $_studentNumber}';
+  }
 }
